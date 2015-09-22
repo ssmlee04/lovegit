@@ -152,8 +152,8 @@ Promise.resolve(shifts).map(function(d, i){
 	return Promise.resolve()
 	.then(function(){
 		return shiftAndCommit(d);
-	// }).then(function(){
-		// return shiftAndCommit(d);
+	}).then(function(){
+		return shiftAndCommit(d);
 	})
 }, {concurrency: 1})
 
