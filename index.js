@@ -71,6 +71,7 @@ var table = {
 }
 
 table['!']  = {width: 2, points: [8,9,10,12,13,15,16,17,19,20]};
+table[':']  = {width: 2, points: [8,9,12,13,15,16,18,19]};
 
 var totalshift = 364 - moment().format('d') - 1 - 1;
 var calculateShifts = function(message){
