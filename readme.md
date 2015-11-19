@@ -2,8 +2,7 @@
 
 Lovegit helps you fill up your empty commit histories with love.
 
-!()[http://i.stack.imgur.com/XYamP.jpg]
-
+![](http://i.stack.imgur.com/XYamP.jpg)
 
 ## Usage (*)
 
