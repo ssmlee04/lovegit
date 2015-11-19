@@ -6,10 +6,11 @@ var argv = require('minimist')(process.argv.slice(2));
 var shifts = [];
 var email = argv.e;
 var message = argv.m;
-var email = 'ssmlee04@gmail.com'
-var message = 'Awesome!';
 
-
+if (!email) {
+	console.log('need an email..')
+	return false;
+}
 if (!message) {
 	console.log('need a message..')
 	return false;
