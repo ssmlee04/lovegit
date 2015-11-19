@@ -65,15 +65,16 @@ var table = {
 	s: {width: 5, points: [9,10,11,13,16,18,20,23,25,27,30,32,33,34]},
 	t: {width: 4, points: [10,16,17,18,19,20,24]},
 	u: {width: 5, points: [9,10,11,12,20,27,30,31,32,33,34]},
-	u: {width: 4, points: [9,10,11,12,20,23,24,25,26]},
+	v: {width: 4, points: [9,10,11,12,20,23,24,25,26]},
 	w: {width: 6, points: [9,10,11,12,20,23,24,25,26,34,37,38,39,40]},
+	x: {width: 5, points: [9,10,12,13,18,25,30,31,33,34]},
 	y: {width: 4, points: [9,10,11,13,18,20,23,24,25,26,27]},
-	z: {width: 5, points: [9,13,16,18,20,23,24,27,30,31,34]},
-
+	z: {width: 5, points: [9,13,16,18,20,23,24,27,30,31,34]}
 }
 
 table['!']  = {width: 2, points: [8,9,10,12,13,15,16,17,19,20]};
 table[':']  = {width: 2, points: [8,9,12,13,15,16,18,19]};
+table[' ']  = {width: 2, points: []};
 
 var totalshift = 364 - moment().format('d') - 1 - 1;
 var calculateShifts = function(message){
