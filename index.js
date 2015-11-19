@@ -9,6 +9,7 @@ var message = argv.m;
 var email = 'ssmlee04@gmail.com'
 var message = 'Awesome!';
 
+
 if (!message) {
 	console.log('need a message..')
 	return false;
